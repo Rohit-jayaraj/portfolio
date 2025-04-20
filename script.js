@@ -21,5 +21,4 @@ document.addEventListener("DOMContentLoaded", function () {
         albumSelect.style.border = "2px solid #e50914"; // red by default
       }
     });
-  });
- 
+});
