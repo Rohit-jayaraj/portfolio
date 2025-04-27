@@ -382,3 +382,10 @@ footer p {
 .card_pic:hover::before {
   opacity: 0.4;
 }
+
+
+.img-fixed {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover; 
+}
