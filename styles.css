@@ -322,3 +322,63 @@ footer p {
 .card_dump:hover::before {
   opacity: 0.4;
 }
+
+.card_pic-title {
+  text-align: center;
+  font-family: 'Neuborn', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #e60000;
+}
+
+.card_pic {
+  font-family: 'Neuborn', sans-serif;
+  font-style: italic;
+  background-color: #2c2c2c;
+  color: #fff;
+  border:2px solid transparent;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  height: 100%;
+
+}
+
+.card_pic:hover{
+  box-shadow: 0 0 20px 3px rgba(192, 192, 192, 0.2);
+  transform: translateY(-10px);
+}
+
+.card_pic::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(
+    45deg,
+    #ff1493,
+    #ff69b4,
+    #ff1493,
+    #ff69b4,
+    #ff1493
+  );
+  background-size: 300% 300%;
+  z-index: -1;
+  filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  animation: neonPulse 4s ease-in-out infinite;
+  border-radius: inherit;
+}
+
+
+.card_pic:hover::before {
+  opacity: 0.4;
+}
