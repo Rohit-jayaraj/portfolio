@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
       "0vPZhR1KpbRNBOQBsDScS8": "https://open.spotify.com/embed/album/0vPZhR1KpbRNBOQBsDScS8?utm_source=generator&theme=0",
       "4MDYr65P5RQb6VHt80T3o8": "https://open.spotify.com/embed/album/4MDYr65P5RQb6VHt80T3o8?utm_source=generator&theme=0",
       "6PFPjumGRpZnBzqnDci6qJ": "https://open.spotify.com/embed/album/6PFPjumGRpZnBzqnDci6qJ?utm_source=generator&theme=0",
-      "3XB2yloP7l00tEUmaODtVi": "https://open.spotify.com/embed/album/3XB2yloP7l00tEUmaODtVi?utm_source=generator&theme=0"
+      "3XB2yloP7l00tEUmaODtVi": "https://open.spotify.com/embed/album/3XB2yloP7l00tEUmaODtVi?utm_source=generator&theme=0",
+      "70uPhkIhXTXM6MNNsMjAHx": "https://open.spotify.com/embed/album/70uPhkIhXTXM6MNNsMjAHx?utm_source=generator&theme=0"
     };
   
     albumSelect.addEventListener("change", function () {
